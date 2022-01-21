@@ -23,10 +23,10 @@ const routes = [
       import("../components/Login.vue"),
   },
   {
-    path: "/about",
-    name: "About",
+    path: "/dashboard",
+    name: "Dashboard",
     component: () =>
-      import("../views/About.vue"),
+      import("../views/Dashboard.vue"),
   },
 ];
 
