@@ -1,1 +1,1 @@
-# vue-parctice
+# vue-practice
