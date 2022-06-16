@@ -45,7 +45,7 @@
                         >Or Log in using</h5>
                         <div class="d-flex  justify-space-between align-center mx-16 mb-16">
                         <v-btn depressed outlined color="grey">
-                        <v-icon color="red">fa-google</v-icon>
+                        <v-icon color="red">mdi-google</v-icon>
                         </v-btn>
                         </div>
                         </v-col>
