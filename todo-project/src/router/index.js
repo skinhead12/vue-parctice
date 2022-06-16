@@ -1,14 +1,16 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
-import Home from "../views/Home.vue";
+import Dashboard from "../views/Dashboard.vue";
+import Projects from "../views/Projects.vue";
+import Team from "../views/Team.vue";
 
 Vue.use(VueRouter);
 
 const routes = [
   {
     path: "/",
-    name: "Home",
-    component: Home,
+    name: "Dashboard",
+    component: Dashboard,
   },
   {
   path: "/register",
@@ -23,11 +25,15 @@ const routes = [
       import("../components/Login.vue"),
   },
   {
-    path: "/dashboard",
-    name: "Dashboard",
-    component: () =>
-      import("../views/Dashboard.vue"),
+    path: "/projects",
+    name: "projects",
+    component: Projects,
   },
+  {
+    path: "/team",
+    name: "team",
+    component: Team,
+  }
 ];
 
 const router = new VueRouter({
